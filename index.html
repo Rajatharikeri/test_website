@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Comparator</title>
+</head>
+<body>
+    <h1>Compare Two Excel Files</h1>
+    <form action="/compare" method="POST" enctype="multipart/form-data">
+        <label for="file1">Choose first Excel file:</label><br>
+        <input type="file" id="file1" name="file1" required><br><br>
+        
+        <label for="file2">Choose second Excel file:</label><br>
+        <input type="file" id="file2" name="file2" required><br><br>
+        
+        <input type="submit" value="Compare Files">
+    </form>
+</body>
+</html>
